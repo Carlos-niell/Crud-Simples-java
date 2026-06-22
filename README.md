@@ -11,6 +11,11 @@ Projeto de exemplo com duas interfaces:
 - `index.html` — interface web
 - `styles.css` — estilos da página web
 - `script.js` — lógica de interação da tabela
+- `images/app-screenshot.png` — captura real do projeto
+
+## Captura de tela
+
+![Captura da aplicação](images/app-screenshot.png)
 
 ## Como executar a versão Java
 
