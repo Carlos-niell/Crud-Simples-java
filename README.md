@@ -8,10 +8,10 @@ Projeto de exemplo com duas interfaces:
 
 - `src/com/example/crud/Main.java` — classe principal do app Java
 - `src/com/example/crud/Usuario.java` — modelo de usuário
-- `index.html` — interface web
-- `styles.css` — estilos da página web
-- `script.js` — lógica de interação da tabela
-- `images/app-screenshot.png` — captura real do projeto
+- `web/index.html` — interface web
+- `web/styles.css` — estilos da página web
+- `web/script.js` — lógica de interação da tabela
+- `web/images/app-screenshot.png` — captura real do projeto
 
 ## Captura de tela
 
@@ -28,7 +28,7 @@ java -cp out com.example.crud.Main
 
 ## Como abrir a versão web
 
-Simplesmente abra `index.html` no navegador ou use uma extensão como Live Server.
+Abra `web/index.html` no navegador ou use uma extensão como Live Server.
 
 ## Como iniciar o repositório Git local
 
