@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD Simples</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>CRUD Simples</h1>
+      <p>Formulário e tabela inspirado no app Java Swing.</p>
+    </header>
+
+    <section class="form-card">
+      <div class="field-group">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" placeholder="Digite o ID" />
+      </div>
+      <div class="field-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome" />
+      </div>
+      <div class="field-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite o email" />
+      </div>
+
+      <div class="button-row">
+        <button type="button" id="btn-add">Adicionar</button>
+        <button type="button" id="btn-update">Atualizar</button>
+        <button type="button" id="btn-delete">Excluir</button>
+        <button type="button" id="btn-clear">Limpar</button>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <h2>Usuários</h2>
+      <table id="user-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>João Silva</td>
+            <td>joao@exemplo.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Maria Souza</td>
+            <td>maria@exemplo.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
